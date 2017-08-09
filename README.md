@@ -209,13 +209,13 @@ function getEntry(globPath) {
 
 > demo 中 dev 环境下中分别是 /View 和pathname + '.html'
 
-所以 demo 中通过 http://localhost:8080/View/user/index.html 可以访问到 user 模块下的 index 页面
+所以 demo 中通过 http://localhost:8080/View/movelist/index.html 可以访问到 user 模块下的 index 页面
 
 #### 打包
 
 运行 `npm run build` 打包，可以看到 Application/Home/View 目录下成功生成了按模块分组的 html 文件，这正是项目需要的。
 
-如 /user/index.html 下的 index.html 文件
+如 /movelist/index.html 下的 index.html 文件
 
 ``` html
 <!DOCTYPE html>
