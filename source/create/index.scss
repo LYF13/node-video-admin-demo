@@ -1,0 +1,34 @@
+@import "../lib/css/web_base.scss";
+
+#app{
+	margin: 80px;
+    .margin-t20{
+      margin-top: 20px;
+    }
+    .width-655{
+      width: 655px;
+    }
+    
+    .mg_b{
+    	margin-bottom: 20px;
+    }
+    
+}
+.limit-line-3{
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+[v-cloak] { display: none }
+
+
+
+
+
+
+
+
+

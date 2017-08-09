@@ -1,0 +1,78 @@
+@import "../lib/css/web_base.scss";
+#app{
+	.top-bar-wraper{
+    height:50px;
+    line-height:50px;
+    overflow:hidden;
+    .top-right-wraper{
+      float:right;
+      .top-reload-button{
+        height:30px;
+      }
+      .top-bar-new-btn{
+      	height:30px;
+      	margin-right:10px;
+      }
+      .top-bar-search-btn{
+      	height: 30px;
+      	margin-right: 16px;
+      }
+      .name-input{
+        width:174px;
+      	margin-right: 10px;
+      }
+      .state-input{
+      	width:72px;
+        margin-right: 10px;
+      }
+    }
+  }
+  .img-item{
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .load-more-btn{
+  	margin: 10px 10px 0 0;
+  }
+
+  .demo-table-expand {
+		font-size: 0;
+	}
+	.demo-table-expand label {
+    width: 90px;
+    color: #99a9bf;
+	}
+	.demo-table-expand .el-form-item {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 50%;
+	}
+  .vidClass{
+    font-size:12px;
+  }
+  .el-tag{
+    margin: 2px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
